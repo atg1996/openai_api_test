@@ -5,6 +5,7 @@ This is a minimalistic setup for an Express app, designed for testing various fe
 - Integration with OpenAI APIs
 - Linters (ESLint)
 - ORMs
+- Rate Limiting
 - And possibly other exciting tools or functionalities
 
 ## Getting Started
@@ -14,7 +15,8 @@ To analyze your code with ESLint, use the following command:
 ```bash
 npx eslint .
 ```
-To analyze your code with ESLint, use the following command:
+To analyze/fix your code with ESLint, use the following command:
+
 ```bash
 npx eslint . --fix
 ```

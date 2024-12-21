@@ -1,2 +1,13 @@
 node_modules/
 .env
+
+#DB specific
+config/config.json
+
+# Build files
+dist/
+build/
+
+#IDE specific
+.vscode/
+.idea/
